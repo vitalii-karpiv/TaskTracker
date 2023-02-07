@@ -1,8 +1,14 @@
+import Header from "./Header";
+import Tasks from "./Tasks";
+import Footer from "./Footer";
+
 const App = () => {
   return (
-    <>
-      <h1>practice react</h1>
-    </>
+    <div className="container">
+        <Header />
+        <Tasks />
+        <Footer />
+    </div>
   );
 }
 
